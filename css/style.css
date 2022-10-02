@@ -6,7 +6,7 @@
 
   /* Neutral Color */
   --light-gray: hsl(204, 43%, 93%);
-  --grayish-blue: hsl(218, 22%, 67%);
+  --grayish-blue: hsl(217, 22%, 67%);
 }
 * {
   margin: 0;
@@ -44,6 +44,9 @@ main {
   overflow: hidden;
 
   width: 650px;
+  -webkit-box-shadow: 0px 20px 5px 15px rgba(152, 166, 189, 0.05);
+  -moz-box-shadow: 0px 20px 5px 15px rgba(152, 166, 189, 0.05);
+  box-shadow: 0px 20px 5px 15px rgba(152, 166, 189, 0.05);
 }
 .content {
   width: 100%;
@@ -137,7 +140,7 @@ main {
   -moz-box-shadow: -2px 5px 21px 0px rgba(0, 0, 0, 0.2);
 }
 .right-col {
-  padding-right: 8rem;
+  padding-right: 7rem;
 }
 .right-col > h5 {
   color: white;
